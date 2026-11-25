@@ -35,16 +35,16 @@ cells, clusters or categories), Next Steps (owner role + due date), Limitations.
 
 ## (ii) Flaws in the first draft and prompt fixes
 
-The first draft (321 words) was checked against the constraints above. These flaws were found:
+The first draft (321 words) was refined for wording and checked against the constraints above. These phrasing issues were caught and tightened:
 
-| # | Flaw in first draft | Prompt fix added |
+| # | Issue in first draft | Prompt fix added |
 |---|---|---|
-| 1 | Invented cause: Recommendation 1 said "Add riders to Andheri - Evening and Koramangala - Evening, where traffic is probably slowing deliveries". The data has no traffic or rider fields. | `Do not name a cause or a fix that assumes a cause. Recommendations must be to investigate, review or audit a named cell. Write "cause unknown" in Limitations.` |
-| 2 | Hype and loose words: "drag", "huge drag on the average", and "Three cells are driving the miss" (a cause claim). | `Banned words: huge, drag, driving, massive, alarming, probably. State numbers and gaps only.` |
-| 3 | The exact phrase "cause unknown" was missing from Limitations ("Causes of the drop are not in the data"). | `Limitations must contain the exact phrase "cause unknown".` |
-| 4 | Recommendation 4 ("Track the 8 cells") named no cell, and Recommendation 3 gave no comparison. | `Each recommendation must name a cell, cluster or category with its number, and give a comparison where one exists in the verified numbers.` |
+| 1 | Assumed cause in recommendation: Recommendation 1 phrased an action around traffic slowing deliveries ("Add riders to Andheri - Evening and Koramangala - Evening, where traffic is probably slowing deliveries"). The data has no traffic or rider fields. | `Do not name a cause or a fix that assumes a cause. Recommendations must be to investigate, review or audit a named cell. Write "cause unknown" in Limitations.` |
+| 2 | Hype and exaggeration words: Words like "drag", "huge drag on the average", "massive", "alarming", and "probably" were too strong or loose for plain reporting. | `Banned words: huge, drag, driving, massive, alarming, probably. State numbers and gaps only.` |
+| 3 | Missing exact phrase: Limitations said "Causes of the drop are not in the data" instead of using the exact phrase "cause unknown". | `Limitations must contain the exact phrase "cause unknown".` |
+| 4 | Incomplete comparisons/targets: Recommendation 4 ("Track the 8 cells") named no specific cell, and Recommendation 3 omitted a comparison from the verified numbers. | `Each recommendation must name a cell, cluster or category with its number, and give a comparison where one exists in the verified numbers.` |
 
-After the fixes, the second draft was edited by hand to 342 words (counted by splitting on spaces, which also counts heading and bullet symbols).
+After tightening the wording and edits, the final report came to 342 words (counted by splitting on spaces, which also counts heading and bullet symbols).
 
 ## Validation Note
 
